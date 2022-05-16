@@ -1,4 +1,10 @@
-const title = document.getElementById("title");
+//First step (Ask user's name)
+const loginForm = document.getElementById("login-form");
+const loginInput = loginForm.querySelector("input");
+const loginButton = loginForm.querySelector("button");
 
-console.log(title);
-title.innerText = 'Got you~!';
+
+//Remembers user's name
+function onLoginBtnClick {}
+
+loginButton.addEventListener("click",onLoginBtnClick);
