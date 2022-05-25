@@ -5,11 +5,12 @@ const greeting = document.querySelector("#greeting");
 
 const HIDDEN_CLASSNAME = "hidden";
 
+
 function onLoginSubmit(event) {
     event.preventDefault();
     const username = loginInput.value;
     loginForm.classList.add("hidden");
-    greeting.innerText = "Hello " + username + "!";
+    greeting.innerText = `Hello ${username}!`;
     greeting.classList.remove("hidden");
 }
 
