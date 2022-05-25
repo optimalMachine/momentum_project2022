@@ -1,11 +1,11 @@
-const title = document.getElementsByClassName("hello");
-const titletwo = document.querySelector(".hello:third-child h1");
+const h1 = document.querySelector("div.hello:first-child h1");
 
+function handleTitleClick() {
+    if (h1.style.color === "blue"){
+        h1.style.color = "tomato";
+    } else {
+        h1.style.color = "blue";
+    }
+}
 
-console.log(titletwo);
-titletwo.innerText = 'I got you~!';
-//console.log(title);
-//console.log(title[0]);
-//title[0].innerText = 'I got you~!';
-
-
+h1.addEventListener ("click", handleTitleClick);
