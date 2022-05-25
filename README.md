@@ -1,4 +1,4 @@
-#Momentum Project 2022
+# Momentum Project 2022
 
-The first JavaScript project. (JavaScript only. No frameworks yet.)
+The first JavaScript project. A chrome extension app which shows current time, name and user's schedule of the day user wrote. (JavaScript only.)
 All written by Jiuk Choi
